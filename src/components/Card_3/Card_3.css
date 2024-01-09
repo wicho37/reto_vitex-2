@@ -1,0 +1,8 @@
+.container3{
+    width: 350px;
+    border-radius: 2%;
+    border-top: 3px solid;
+    box-shadow: 0 8px 21px hsl(0, 10%, 75%, 0.7);
+    margin: 20px;
+    height: 281px;
+}
