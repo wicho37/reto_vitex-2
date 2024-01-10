@@ -1,7 +1,8 @@
 import "./card-2.css"
 
 
-export const Card_2 = () => {
+
+ const Card_2 = () => {
 
     return (
         <div className="container2">
@@ -9,9 +10,13 @@ export const Card_2 = () => {
                 <h3>Team builder</h3>
                 <p>Scans our talent networt to create the optimal team for your project</p>
                 <div>
-                   <img src="" alt="" />
+                   <img src="./assets/img/icon-team-builder.svg" alt="" />
+
                 </div>
             </div>
         </div>
     )
 }
+
+
+export default Card_2

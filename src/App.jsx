@@ -1,4 +1,4 @@
-import React from "react"
+/* import React from "react"
 import {Card} from "./components/Card/Card";
 import img1 from "./assets/img/icon-supervisor.svg";
 import img2 from "./assets/img/icon-team-builder.svg";
@@ -70,15 +70,15 @@ export default app
 
 
 
-/* 
+/* */
 
 
- import React from "react"
-import Header from "./components/Header/Header"
-import Card_1 from "./components/Card_1/Card_1"
-import { Card_2 } from "./components/Card_2/Card_2"
-import { Card_3 } from "./components/Card_3/Card_3"
-import { Card_4 } from "./components/Card_4/Card_4"
+import React from "react"
+import Header  from "./components/Header/Header";
+import Card_1  from "./components/Card_1/Card_1";
+import Card_2  from "./components/Card_2/Card_2";
+import Card_3  from "./components/Card_3/Card_3";
+import Card_4  from "./components/Card_4/Card_4"
 
 
 
@@ -91,13 +91,14 @@ function app() {
         <div>
             <Header />
             <Card_1 />
-            <div>
+            <div >
                 <Card_2/>
                 <Card_3 />
             </div>
             <Card_4 />
+
         </div>
     )
 }
 
-export default app  */
+export default app  

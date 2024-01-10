@@ -12,7 +12,8 @@ const Card_1 = () => {
               <p>monitors activity to identify project roadblocks</p>
             </div>
             <div>
-                <img src="" alt="" />
+            <img src="" alt="" />
+
             </div>
         </div>
     )
