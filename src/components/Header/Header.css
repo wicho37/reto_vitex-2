@@ -1,0 +1,41 @@
+.content {
+    margin-top: 35px;
+}
+
+h1 {
+    margin: 0px;
+    display: flex;
+    font-weight: 200;
+    font-size: 27px;
+    justify-content: center;
+    color: hsl(234, 12%, 34%);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: xx-large;
+    margin-top: 0;
+    color: hsl(234, 12%, 34%);
+    width: 100%;
+}
+
+.tittle-secund {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%)
+}
+
+.tittle-secund, p{
+    margin-bottom: 3px;
+}
+
+.tittle-secund, p, p {
+    margin: 0;
+    letter-spacing: -1px;
+}
+

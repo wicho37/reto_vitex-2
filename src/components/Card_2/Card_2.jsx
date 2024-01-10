@@ -6,7 +6,7 @@ import "./card-2.css"
 
     return (
         <div className="container2">
-            <div>
+            <div className="body_card">
                 <h3>Team builder</h3>
                 <p>Scans our talent networt to create the optimal team for your project</p>
                 <div>

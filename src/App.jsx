@@ -74,11 +74,12 @@ export default app
 
 
 import React from "react"
-import Header  from "./components/Header/Header";
-import Card_1  from "./components/Card_1/Card_1";
-import Card_2  from "./components/Card_2/Card_2";
-import Card_3  from "./components/Card_3/Card_3";
-import Card_4  from "./components/Card_4/Card_4"
+import Header from "./components/Header/Header";
+import Card_1 from "./components/Card_1/Card_1";
+import Card_2 from "./components/Card_2/Card_2";
+import Card_3 from "./components/Card_3/Card_3";
+import Card_4 from "./components/Card_4/Card_4"
+import "./app.css" 
 
 
 
@@ -90,12 +91,18 @@ function app() {
     return (
         <div>
             <Header />
-            <Card_1 />
-            <div >
-                <Card_2/>
-                <Card_3 />
+            <div className="cards">
+                <div>
+                    <Card_1 />
+                </div>
+                    <div className="medium_card">
+                        <Card_2 />
+                        <Card_3 />
+                    </div>
+                <div>
+                    <Card_4 />
+                </div>
             </div>
-            <Card_4 />
 
         </div>
     )

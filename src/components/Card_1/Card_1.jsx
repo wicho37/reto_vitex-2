@@ -7,7 +7,7 @@ const Card_1 = () => {
 
     return(
         <div className="container">
-            <div>
+            <div className="body_card">
               <h3>supervisor</h3>
               <p>monitors activity to identify project roadblocks</p>
             </div>

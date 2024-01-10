@@ -1,0 +1,18 @@
+body {
+    margin: 112px;
+    background-color: white;
+}
+
+
+body .cards {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.body_card  {
+    margin: 25px;
+}
+
+.body_card p {
+    letter-spacing: 0px;
+}
