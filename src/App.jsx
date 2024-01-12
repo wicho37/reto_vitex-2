@@ -1,9 +1,10 @@
-/* import React from "react"
-import {Card} from "./components/Card/Card";
-import img1 from "./assets/img/icon-supervisor.svg";
-import img2 from "./assets/img/icon-team-builder.svg";
-import img3 from "./assets/img/icon-Karma.svg";
-import img4 from "./assets/img/icon-Calculator.svg"
+import React from "react"
+import Card from "./components/Card/Card"
+import img2 from "./assets/team-builder.svg";
+import img1 from "./assets/supervisor.svg";
+import img3 from "./assets/Karma.svg";
+import img4 from "./assets/Calculator.svg"
+import "./App.css"
 
 
 function app() {
@@ -13,16 +14,19 @@ function app() {
 
             <div>
                 <div>
-                    <h1>Realiabe, efficient delivery</h1>
-                    <h2>Powered by tecnology</h2>
+                    <div className="tittle_one">
+                       <h1>Realiabe, efficient delivery</h1>
+                       <h2>Powered by tecnology</h2>
+                    </div>
+                    <div className="tittle-secund">
+                       <p>Cut Artificial intelegence powered use millons of projet data</p>
+                       <br />
+                       <p>points to ensure that your projet is successful</p>
+                    </div>
                 </div>
-                <div>
-                    <p>Cut Artificial intelegence powered use millons of projet data</p>
-                    <br />
-                    <p>points to ensure that your projet is successful</p>
-                </div>
+            <div className="container_cards">
 
-                <div>
+                <div className="container_1">
                     <Card
                         titulo="supervisor"
                         texto="monitors activity to identify project roadblocks"
@@ -32,7 +36,7 @@ function app() {
                 </div>
 
                 <div>
-                    <div>
+                    <div className="container-medium">
                         <Card
                             titulo="Team builder"
                             texto="Scans our talent networt to create the optimal team for your project"
@@ -42,25 +46,26 @@ function app() {
 
                     />
                     </div>
-                    <div>
+                    <div className="card_medium-2">
                         <Card
                             titulo="Karma"
                             texto="Regulary evaluates our talent to ensure quality"
                             img={img3}
-                            borderColor="hsl(34,97%,64%)"
+                            borderColor="hsl(34, 97%, 64%)"
 
                     />
                     </div>
                 </div>
 
-                <div>
+                <div className="container_1">
                     <Card
                         titulo="Calculator"
                         texto=" uses dat from past project to provide better delivery estimates"
                         img={img4}
-                        borderColor="hsl(112,86%,64%)"
+                        borderColor="hsl(212,86%,64%)"
                     />
                 </div>
+            </div>
             </div >
         </>
     )
@@ -70,7 +75,7 @@ export default app
 
 
 
-/* */
+/* 
 
 
 import React from "react"
@@ -91,6 +96,7 @@ function app() {
     return (
         <div>
             <Header />
+            
             <div className="cards">
                 <div>
                     <Card_1 />
@@ -108,4 +114,4 @@ function app() {
     )
 }
 
-export default app  
+export default app  */

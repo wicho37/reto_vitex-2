@@ -1,4 +1,5 @@
 import "./Card.css";
+import supervisor from "../../assets/img/supervisor.svg"
 
 
 
@@ -12,7 +13,7 @@ const Card_1 = () => {
               <p>monitors activity to identify project roadblocks</p>
             </div>
             <div>
-            <img src="" alt="" />
+            <img src={supervisor} alt="" />
 
             </div>
         </div>

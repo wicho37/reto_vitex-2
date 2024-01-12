@@ -1,6 +1,7 @@
 body {
     margin: 112px;
     background-color: white;
+    width: 1200px;
 }
 
 
@@ -16,3 +17,64 @@ body .cards {
 .body_card p {
     letter-spacing: 0px;
 }
+
+.content {
+    margin-top: 35px;
+}
+
+h1 {
+    margin: 20px 0 0 0;
+    display: flex;
+    font-weight: 200;
+    font-size: 33px;
+    justify-content: center;
+    color: hsl(234, 12%, 34%);
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 37px;
+    margin-top: 0;
+    color: hsl(234, 12%, 34%);
+    width: 100%;
+}
+
+.tittle-secund {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%)
+}
+
+.tittle-secund, p{
+    margin-bottom: 3px;
+}
+
+.tittle-secund, p, p {
+    margin: -12px;
+}
+
+.container_cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: revert;
+    max-width: 67rem;
+    height: 750px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -134px;
+}
+
+.container_1 {
+    margin-top: 146px;
+}
+
+.container_meduim-2{
+    margin-top: -149px;
+}
+
