@@ -19,9 +19,9 @@ function app() {
                        <h2>Powered by tecnology</h2>
                     </div>
                     <div className="tittle-secund">
-                       <p>Cut Artificial intelegence powered use millons of projet data</p>
+                       <p className="tittle_1">Cut Artificial intelegence powered use millons of projet data</p>
                        <br />
-                       <p>points to ensure that your projet is successful</p>
+                       <p >points to ensure that your projet is successful</p>
                     </div>
                 </div>
             <div className="container_cards">

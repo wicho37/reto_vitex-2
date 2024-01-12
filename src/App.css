@@ -8,9 +8,6 @@ body {
 body .cards {
     display: grid;
     grid-auto-flow: column;
-}
-
-.body_card  {
     margin: 25px;
 }
 
@@ -55,8 +52,15 @@ h2 {
     margin-bottom: 3px;
 }
 
+.tittle_1 {
+    letter-spacing: 1px;
+}
+
+
+
 .tittle-secund, p, p {
     margin: -12px;
+    
 }
 
 .container_cards {
@@ -74,7 +78,8 @@ h2 {
     margin-top: 146px;
 }
 
-.container_meduim-2{
+.container_cards div .card_medium-2 {
     margin-top: -149px;
+
 }
 
