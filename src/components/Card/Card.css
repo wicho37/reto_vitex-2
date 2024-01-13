@@ -1,10 +1,19 @@
 .container {
-    width: 333px;
+    width: 446px;
     border-radius: 2%;
     border-top: 3px solid;
     box-shadow: 0 8px 21px hsl(0, 10%, 75%, 0.7);
     margin: 175px 11px;
     height: 281px;
+} 
+
+.card_origen {
+    margin: 0 39px 39px 39px;
+    display: flow-root;
+}
+
+.card_origen p{
+    margin: 0;
 }
 
    

@@ -5,6 +5,7 @@ import img1 from "./assets/supervisor.svg";
 import img3 from "./assets/Karma.svg";
 import img4 from "./assets/Calculator.svg"
 import "./App.css"
+import "./components/Card/Card.css"
 
 
 function app() {
