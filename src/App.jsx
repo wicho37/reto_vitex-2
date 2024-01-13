@@ -3,10 +3,8 @@ import Card from "./components/Card/Card"
 import img2 from "./assets/team-builder.svg";
 import img1 from "./assets/supervisor.svg";
 import img3 from "./assets/Karma.svg";
-import img4 from "./assets/Calculator.svg"
+import img4 from "./assets/Calculator.svg";
 import "./App.css"
-import "./components/Card/Card.css"
-
 
 function app() {
 
@@ -32,7 +30,7 @@ function app() {
                         titulo="supervisor"
                         texto="monitors activity to identify project roadblocks"
                         img={img1}
-                        borderColor="hsl(180,62%,55%)"
+                        
                     />
                 </div>
 
@@ -42,7 +40,7 @@ function app() {
                             titulo="Team builder"
                             texto="Scans our talent networt to create the optimal team for your project"
                             img={img2}
-                            borderColor="hsl(0,78%,62%)"
+                            borderColor="hsl(180, 62%, 55%)"
 
 
                     />
@@ -63,7 +61,7 @@ function app() {
                         titulo="Calculator"
                         texto=" uses dat from past project to provide better delivery estimates"
                         img={img4}
-                        borderColor="hsl(212,86%,64%)"
+                        borderColor="hsl(212, 86%, 64%)"
                     />
                 </div>
             </div>

@@ -35,7 +35,7 @@ h2 {
     justify-content: center;
     font-weight: 600;
     font-size: 54px;
-    margin-top: 0;
+    margin-top: -20px;
     color: hsl(234, 12%, 34%);
     width: 100%;
     letter-spacing: -1px;
@@ -59,13 +59,7 @@ h2 {
     letter-spacing: -2px;
     color: hsl(229, 6%, 66%);
     margin-left: 10px;
-
-
 }
-
-/* .tittle-secund, p{
-    margin-bottom: 3px;
-} */
 
 .tittle_1 {
     letter-spacing: 1px;
@@ -97,4 +91,7 @@ h2 {
     margin-top: -149px;
 }
 
+.icon {
+    margin: 25px 0 0 358px;
 
+}
