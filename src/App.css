@@ -95,3 +95,16 @@ h2 {
     margin: 25px 0 0 358px;
 
 }
+
+@media (max-width: 375px){
+    .container_cards{
+        display: block;
+    margin-left: 367px;
+    }
+    .container-medium{
+        margin: -146px 0;
+    }
+    .container_1 {
+        margin-top: -143px;
+    }
+}
