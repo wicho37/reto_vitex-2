@@ -1,7 +1,8 @@
 body {
-    margin: 112px;
+    margin-left: 157px;
     background-color: white;
     width: 1200px;
+    height: 1560px;
 }
 
 
@@ -79,7 +80,7 @@ h2 {
     max-width: 67rem;
     height: 750px;
     width: 100%;
-    margin: -88px;
+    margin: -103px;
     margin-top: -134px;
 }
 
@@ -97,6 +98,10 @@ h2 {
 }
 
 @media (max-width: 375px){
+    body {
+        margin: 0 -199px;
+
+    }
     .container_cards{
         display: block;
     margin-left: 367px;
@@ -107,4 +112,5 @@ h2 {
     .container_1 {
         margin-top: -143px;
     }
+
 }

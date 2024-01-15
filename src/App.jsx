@@ -30,7 +30,7 @@ function app() {
                         titulo="supervisor"
                         texto="monitors activity to identify project roadblocks"
                         img={img1}
-                        
+                        border="red"
                     />
                 </div>
 
@@ -40,7 +40,7 @@ function app() {
                             titulo="Team builder"
                             texto="Scans our talent networt to create the optimal team for your project"
                             img={img2}
-                            borderColor="hsl(180, 62%, 55%)"
+                            border="hsl(180, 62%, 55%)"
 
 
                     />
@@ -50,7 +50,7 @@ function app() {
                             titulo="Karma"
                             texto="Regulary evaluates our talent to ensure quality"
                             img={img3}
-                            borderColor="hsl(34, 97%, 64%)"
+                            border="hsl(34, 97%, 64%)"
 
                     />
                     </div>
@@ -61,7 +61,7 @@ function app() {
                         titulo="Calculator"
                         texto=" uses dat from past project to provide better delivery estimates"
                         img={img4}
-                        borderColor="hsl(212, 86%, 64%)"
+                        border="hsl(212, 86%, 64%)"
                     />
                 </div>
             </div>
